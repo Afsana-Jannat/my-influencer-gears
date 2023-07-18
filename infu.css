@@ -184,3 +184,22 @@ footer{
     gap: 45px;
     padding-bottom: 50px;
 }
+@media screen and (max-width: 576px){
+    nav,
+    .logo-img,ul{
+        flex-direction: column;
+    }
+    .banner,
+    .feature{
+        margin-top: 20px;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .Collection{
+        grid-template-columns: 1fr;
+        margin: 5px 15px;
+    }
+    .join{
+        margin-bottom: 15px;
+    }
+}
