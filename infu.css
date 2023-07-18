@@ -90,13 +90,13 @@ nav li a{
 
 .collection-img{
     height: 410px;
-   
     padding: 5px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
 }
 .c-discrip{
+    margin-top: 10px;
     color: #787885;
     font-family: Inter;
    font-size: 11px;
@@ -106,6 +106,7 @@ nav li a{
 
 }
 h4{
+    margin-top: 10px;
     color: rgba(0, 0, 0, 0.87);
     font-family: Inter;
     font-size: 16px;
@@ -113,6 +114,7 @@ h4{
     font-weight: 400;
 }
 .c-title{
+    margin-top: 10px;
     color: #18191F;
     font-family: Poppins;
     font-size: 20px;
