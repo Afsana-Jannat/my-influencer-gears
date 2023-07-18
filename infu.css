@@ -1,0 +1,50 @@
+header{
+    padding: 35px 80px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+
+}
+nav li a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.section-title{
+    color: #3A3A3A;
+}
+.banner-title{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 30px;
+    font-weight: 700;
+    width: 300px;
+}
+.banner-discription{
+    color: #3A3A3A;
+    font-family: Poppins;
+    font-size: 11px;
+    font-weight: 600;
+    width: 270px;
+}
+.book{
+    border-radius: 41px;
+    background: #E02C6D;
+    display: inline-flex;
+    padding: 5px 14px;
+    gap: 8px;
+    color: #fff;
+    align-items: center;
+    width: auto;
+    height: 30px;
+}
