@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 header{
     padding: 35px 120px;
 }
@@ -29,6 +33,7 @@ nav li a{
     font-size: 30px;
     font-weight: 700;
     width: 300px;
+    margin-bottom: 20px;
 }
 .banner-discription{
     color: #3A3A3A;
@@ -36,6 +41,7 @@ nav li a{
     font-size: 11px;
     font-weight: 600;
     width: 270px;
+    margin-bottom: 20px;
 }
 .book{
     border-radius: 41px;
@@ -55,7 +61,7 @@ nav li a{
     margin-top: 20px;
 }
 .main-image img{
-    background: url(<path-to-image>), rgb(247, 238, 238) -256.697px -123px / 220.317% 154.831% no-repeat;
+    background-image: url('./images/Circle\ design.svg');
 
 }
 .logo-img{
@@ -112,4 +118,67 @@ h4{
     font-size: 20px;
     font-style: normal;
     font-weight: 500;
+}
+.see{
+    color: #E02C6D;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-left: 1080px;
+}
+.title{
+    padding-bottom: 20px;
+}
+
+.join{
+    background-color: #E02C6D;
+    color: #FFF;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 5px 16px;
+    width: auto;
+    height: 30px;
+    margin-top: 20px;
+}
+.feature{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px 140px;
+}
+.f-discrip{color: #6C6C6C;
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+width: 380px;
+}
+footer{
+    background: #0A0826;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-title{
+    color: #FFF;
+   font-family: Poppins;
+   font-size: 24px;
+   font-style: normal;
+   font-weight: 700;
+   line-height: normal;
+   padding-top: 50px;
+}
+.footer-p{
+    color: #D9DBE1;
+    font-family: Manrope;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+}
+.icon{
+    padding-top: 20px;
+    color: #FFFFFF;
+    gap: 45px;
+    padding-bottom: 50px;
 }
